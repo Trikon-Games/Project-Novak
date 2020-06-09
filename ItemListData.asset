@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3602cfd0ac79644a19fea8f4fd1b49, type: 3}
+  m_Name: ItemListData
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 114770472158211478}
+  - {fileID: 114340393848400592}
+  inEdition: 0
+  itemsHidden: 1
+--- !u!114 &114340393848400592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Test Sword
+  m_EditorClassIdentifier: 
+  id: 1
+  description: Item Description
+  type: 1
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508,
+    type: 3}
+  dropObject: {fileID: 1000011247033104, guid: 43ec053b9c111644e80b4ddb5f535508, type: 3}
+  attributes:
+  - name: 2
+    value: 100
+    isBool: 0
+  isInEquipArea: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  displayAttributes: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+--- !u!114 &114770472158211478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Gods Sword
+  m_EditorClassIdentifier: 
+  id: 0
+  description: Sword of the Gods
+  type: 1
+  icon: {fileID: 21300000, guid: 640c2494e033ec84fbf236856397d7c7, type: 3}
+  stackable: 1
+  maxStack: 1
+  amount: 1
+  originalObject: {fileID: 913044133500304440, guid: e5054e6b9a566694c96a9c8cec5d3712,
+    type: 3}
+  dropObject: {fileID: 913044133500304440, guid: e5054e6b9a566694c96a9c8cec5d3712,
+    type: 3}
+  attributes: []
+  isInEquipArea: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  displayAttributes: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
