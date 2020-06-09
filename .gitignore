@@ -15,7 +15,18 @@
 
 # Mono auto generated files
 mono_crash.*
-
+Advanced/
+Anim/
+GameSparks/
+Invector-3rdPersonController/
+Invector-3rdPersonController_LITE/
+LowPoly Environment Pack/
+Prefabs/
+ProceduralToolkit/
+SampleScenes/
+Scenes/
+Simple_Day_and_Night_Cycle/
+Standard Assets/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
